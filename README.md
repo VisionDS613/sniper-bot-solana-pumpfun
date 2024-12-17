@@ -1,5 +1,3 @@
-
-
 ## FSSB SOLANA SNIPER BOT
 
 
