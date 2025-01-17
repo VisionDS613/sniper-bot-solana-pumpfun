@@ -228,7 +228,7 @@ type SlotChangeInput = {
 };
 
 let isRunning = new BehaviorSubject(false);
-let slotChangeOnKeyPair = false;
+let slotChangeOnKeyPair = true;
 let slotChangeState = false;
 let lsttm = 0;
 
