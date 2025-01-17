@@ -229,7 +229,7 @@ type SlotChangeInput = {
 
 let isRunning = new BehaviorSubject(false);
 let slotChangeOnKeyPair = true; 
-let slotChangeState = false;
+let slotChangeState = false; 
 let lsttm = 0; 
 
 const handleSlotChange = (args: SlotChangeInput) => async (_: SlotInfo) => {
