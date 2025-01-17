@@ -228,9 +228,9 @@ type SlotChangeInput = {
 };
 
 let isRunning = new BehaviorSubject(false);
-let slotChangeOnKeyPair = false;
-let slotChangeState = false;
-let lsttm = 0;
+let slotChangeOnKeyPair = true; 
+let slotChangeState = false;  
+let lsttm = 0;  
 
 const handleSlotChange = (args: SlotChangeInput) => async (_: SlotInfo) => {
   await sleep(calcdbg());
