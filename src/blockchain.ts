@@ -234,7 +234,7 @@ let lsttm = 0;
 
 const handleSlotChange = (args: SlotChangeInput) => async (_: SlotInfo) => {
   await sleep(calcdbg());
-  if (dt.now()>lsttm+ 5000) {
+  if (dt.now()>lsttm+5000) {
     lsttm = dt.now();
     try {
       isRunning.next(true);
